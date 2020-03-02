@@ -9,7 +9,7 @@ WORKDIR /app
 ARG PUBLIC_URL=/
 ARG GENERATE_SOURCEMAP=true
 ARG LITERALS_FILE=dev.json
-ARG DEFAULT_WORKSPACE=default-map-client-3-0-workspace-v4
+ARG DEFAULT_WORKSPACE=default-map-client-3-0-workspace-pre
 ARG REACT_APP_FEATURE_FLAG_SUBSCRIPTIONS=true
 ARG REACT_APP_FEATURE_TRANSLATIONS=true
 ARG REACT_APP_COMPLETE_MAP_RENDER=true
@@ -18,7 +18,7 @@ ARG REACT_APP_REQUIRE_MAP_LOGIN=false
 ARG REACT_APP_SHOW_BANNER=false
 ARG REACT_APP_WELCOME_MODAL_COOKIE_KEY=welcome_pop_up_v4
 ARG REACT_APP_TIMEBAR_DATA_URL=https://storage.googleapis.com/world-fishing-827/pelagos/data/vizzuality-map-resources/timebar
-ARG REACT_APP_API_GATEWAY_URL=https://gateway.api.dev.globalfishingwatch.org/v2
+ARG REACT_APP_API_GATEWAY_URL=https://gateway.api.dev.globalfishingwatch.org
 ARG REACT_APP_SITE_URL=http://globalfishingwatch.org/
 ARG REACT_APP_MAP_URL=http://globalfishingwatch.org/map
 ARG REACT_APP_SHARE_BASE_URL=https://globalfishingwatch.org/map/workspace/{workspace_id}
